@@ -16,7 +16,6 @@ data class Student (
 
         if (name != other.name) return false
         if (age != other.age) return false
-
         return true
     }
 
