@@ -13,3 +13,12 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+#bỏ qua thư mục gradle
+#gradle/
+#bỏ qua fie xml
+#app/**/xml
+#.... tìm hiểu ở bài 9.10
+
+
+app/**/*.kt
