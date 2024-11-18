@@ -1,3 +1,5 @@
 package com.example.learngit
 
-data class People()
+data class People(
+    val age:Int
+)
