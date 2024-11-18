@@ -4,8 +4,8 @@ data class Student (
     private val name:String = "",
     val age:Int = 0
 ){
-    fun getAge():Int{
-        return age
+    fun getName():String{
+        return name
     }
 
     override fun equals(other: Any?): Boolean {
