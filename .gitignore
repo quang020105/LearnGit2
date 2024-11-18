@@ -21,4 +21,4 @@ local.properties
 #.... tìm hiểu ở bài 9.10
 
 
-app/**/*.kt
+#app/**/Subject.kt
