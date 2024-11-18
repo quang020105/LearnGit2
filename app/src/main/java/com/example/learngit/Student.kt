@@ -20,10 +20,5 @@ data class Student (
         return true
     }
 
-    override fun hashCode(): Int {
-        var result = name.hashCode()
-        result = 31 * result + age
-        return result
-    }
 
 }
